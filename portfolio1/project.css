@@ -1,0 +1,55 @@
+html{
+    scroll-behavior: smooth;
+}
+body{
+    color: white;
+}
+* {
+    background-image: url(../darkimg.png);
+    background-size: 1200px 900px;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-top: 2px;
+    background-color: black;
+    background-attachment: fixed;
+  }
+  h1,h2,h3,h4,a{
+      color: white;  
+  }
+  p{
+      color: white;
+      font-size: large;
+  }
+  .navbar{
+    left: 900px;
+    overflow: hidden;
+    background-color:black;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+.navbar a{
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+   text-decoration: black;
+}
+.navbar a:hover{
+    background: black;
+    color : burlywood;
+}
+.project{
+    color: white;
+    padding-bottom: 18%;
+    padding-right: 9%;
+    
+}
+.project2{
+    padding-bottom: 18%;
+}
+.project3{
+    padding-top: 1%;
+    padding-bottom: 18%;
+}
